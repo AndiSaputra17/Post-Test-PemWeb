@@ -4,117 +4,167 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MaleFashion - Tempat Belanja Fashion Pria Terpercaya</title>
-    <meta name="description" content="Temukan koleksi fashion pria terkini dengan kualitas terbaik dan harga terjangkau.">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <div class="logo">
-                <h1>MaleFashion</h1>
-            </div>
-            <ul>
-                <li><a href="#home">Beranda</a></li>
-                <li><a href="#produk">Produk</a></li>
-                <li><a href="#kategori">Kategori</a></li>
-                <li><a href="#tentang">Tentang Kami</a></li>
-                <li><a href="#kontak">Kontak</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">MaleFashion</div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Beranda</a></li>
+                    <li><a href="#produk" class="nav-link">Produk</a></li>
+                    <li><a href="#kategori" class="nav-link">Kategori</a></li>
+                    <li><a href="#tentang" class="nav-link">Tentang Kami</a></li>
+                    <li><a href="#kontak" class="nav-link">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section id="home">
-            <h2>Selamat Datang di MaleFashion</h2>
-            <p>Temukan gaya terbaik untuk penampilan maksimal setiap hari</p>
-        </section>
-
-        <section id="kategori">
-            <h2>Kategori Produk</h2>
-            <div class="kategori-list">
-                <article>
-                    <h3>Pakaian</h3>
-                    <p>Kemeja, Kaos, Celana, dan Jaket</p>
-                </article>
-                <article>
-                    <h3>Aksesoris</h3>
-                    <p>Topi, Sabuk, Dompet, dan Jam</p>
-                </article>
-                <article>
-                    <h3>Sepatu</h3>
-                    <p>Sneakers, Formal Shoes, dan Sandal</p>
-                </article>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Temukan Gaya Terbaik Anda</h1>
+                    <p class="hero-subtitle">Koleksi fashion pria terkini dengan kualitas premium dan harga terjangkau</p>
+                    <a href="#produk" class="btn btn-primary">Jelajahi Koleksi</a>
+                </div>
             </div>
         </section>
 
-        <section id="produk">
-            <h2>Produk Terbaru</h2>
-            <div class="produk-list">
-                <article>
-                    <h3>Kemeja Slim Fit</h3>
-                    <p>Kemeja cotton dengan desain modern dan nyaman</p>
-                    <p>Rp 299.000</p>
-                </article>
-                <article>
-                    <h3>Celana Chino</h3>
-                    <p>Celana chino dengan bahan premium dan berbagai pilihan warna</p>
-                    <p>Rp 399.000</p>
-                </article>
-                <article>
-                    <h3>Sneakers Casual</h3>
-                    <p>Sneakers dengan desain trendy dan nyaman dipakai sehari-hari</p>
-                    <p>Rp 499.000</p>
-                </article>
+        <section id="kategori" class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Kategori Produk</h2>
+                </div>
+                <div class="category-grid">
+                    <article class="category-card">
+                        <div class="category-icon">👕</div>
+                        <h3>Pakaian</h3>
+                        <p>Kemeja, Kaos, Celana dan Jaket dengan desain modern</p>
+                    </article>
+                    <article class="category-card">
+                        <div class="category-icon">🧢</div>
+                        <h3>Aksesoris</h3>
+                        <p>Topi, Sabuk, Dompet dan Jam untuk melengkapi gaya Anda</p>
+                    </article>
+                    <article class="category-card">
+                        <div class="category-icon">👟</div>
+                        <h3>Sepatu</h3>
+                        <p>Sneakers, Formal Shoes dan Sandal dengan kualitas terbaik</p>
+                    </article>
+                </div>
             </div>
         </section>
 
-        <section id="tentang">
-            <h2>Tentang Kami</h2>
-            <p>MaleFashion hadir untuk memberikan pengalaman berbelanja fashion pria yang mudah, berkualitas, dan terpercaya sejak 2023.</p>
+        <section id="produk" class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Produk Terbaru</h2>
+                </div>
+                <div class="product-grid">
+                    <article class="product-card">
+                        <div class="product-img">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx0cFfxTkCMkLOfTCasO25yoIyqIO444Q10A&s" alt="Kemeja Slim Fit">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">Kemeja Slim Fit</h3>
+                            <p>Kemeja cotton dengan desain modern dan nyaman</p>
+                            <p class="product-price">Rp 299.000</p>
+                            <a href="#" class="btn btn-secondary">Beli Sekarang</a>
+                        </div>
+                    </article>
+                    <article class="product-card">
+                        <div class="product-img">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRocZpaZU4qvGunDIQySMHVmDU2orFSczEvOA&s" alt="Celana Chino">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">Celana Chino</h3>
+                            <p>Celana chino dengan bahan premium dan berbagai pilihan warna</p>
+                            <p class="product-price">Rp 399.000</p>
+                            <a href="#" class="btn btn-secondary">Beli Sekarang</a>
+                        </div>
+                    </article>
+                    <article class="product-card">
+                        <div class="product-img">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbDq2U1GzbnHiZi0kWNAkito2qJBTrXoaF8Q&s" alt="Sneakers Casual">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">Sneakers Casual</h3>
+                            <p>Sneakers dengan desain trendy dan nyaman dipakai sehari-hari</p>
+                            <p class="product-price">Rp 499.000</p>
+                            <a href="#" class="btn btn-secondary">Beli Sekarang</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
         </section>
 
-        <section id="kontak">
-            <h2>Hubungi Kami</h2>
-            <form>
-                <label for="nama">Nama:</label>
-                <input type="text" id="nama" name="nama">
-                
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email">
-                
-                <label for="pesan">Pesan:</label>
-                <textarea id="pesan" name="pesan"></textarea>
-                
-                <button type="submit">Kirim Pesan</button>
-            </form>
+        <section id="tentang" class="section about">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Tentang Kami</h2>
+                </div>
+                <div class="about-content">
+                    <p>MaleFashion hadir untuk memberikan pengalaman berbelanja fashion pria yang mudah, berkualitas, dan terpercaya sejak 2023. Kami menyediakan berbagai pilihan produk fashion pria terbaru dengan kualitas terbaik dan harga yang kompetitif.</p>
+                    <p>Dengan fokus pada kenyamanan dan kepuasan pelanggan, kami terus berinovasi untuk memberikan pelayanan terbaik dan produk-produk terkini yang mengikuti perkembangan trend fashion dunia.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="kontak" class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Hubungi Kami</h2>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="nama" class="form-label">Nama:</label>
+                        <input type="text" id="nama" name="nama" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="pesan" class="form-label">Pesan:</label>
+                        <textarea id="pesan" name="pesan" class="form-control" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                </form>
+            </div>
         </section>
     </main>
 
     <footer>
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3>MaleFashion</h3>
-                <p>Jl. Fashion No. 123, Samarinda Seberang</p>
-                <p>Email: info@malefashion.id</p>
-                <p>Telepon: (021) 1234-5678</p>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3 class="footer-heading">MaleFashion</h3>
+                    <p>Jl. Fashion No. 123, Samarinda Seberang</p>
+                    <p>Email: info@malefashion.id</p>
+                    <p>Telepon: (021) 1234-5678</p>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-heading">Tautan Cepat</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#produk">Produk</a></li>
+                        <li><a href="#kategori">Kategori</a></li>
+                        <li><a href="#tentang">Tentang Kami</a></li>
+                        <li><a href="#kontak">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-heading">Referensi Desain</h3>
+                    <p>Inspirasi desain dari:</p>
+                    <a href="https://heymale.id/" target="_blank">Heymale.id</a>
+                </div>
             </div>
-            <div class="footer-section">
-                <h3>Tautan Cepat</h3>
-                <ul>
-                    <li><a href="#home">Beranda</a></li>
-                    <li><a href="#produk">Produk</a></li>
-                    <li><a href="#kategori">Kategori</a></li>
-                    <li><a href="#tentang">Tentang Kami</a></li>
-                    <li><a href="#kontak">Kontak</a></li>
-                </ul>
+            <div class="footer-bottom">
+                <p>&copy; 2025 MaleFashion. All rights reserved.</p>
             </div>
-            <div class="footer-section">
-                <h3>Referensi Desain</h3>
-                <p>Inspirasi desain dari:</p>
-                <a href="https://heymale.id/" target="_blank">Heymale.id</a>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2025 MaleFashion. All rights reserved.</p>
         </div>
     </footer>
 </body>
